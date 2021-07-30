@@ -1,0 +1,6 @@
+{
+  "ps_calculation_types": [
+    { "id": 2, "description": "Adjustment Calculation" },
+    { "id": 4, "description": "IFRS Calculation" }
+  ]
+}

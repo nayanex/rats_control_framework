@@ -1,0 +1,124 @@
+{
+  "ps_workflow_adjustments": [
+    {
+      "id": 1545,
+      "workflow_id": 3482,
+      "adjustment_id": 1561,
+      "audit_trail_id": 5204,
+      "status": "APPROVED",
+      "calculated_provision": 13468447.94
+    },
+    {
+      "id": 1546,
+      "workflow_id": 3482,
+      "adjustment_id": 1562,
+      "audit_trail_id": 5205,
+      "status": "APPROVED",
+      "calculated_provision": 5918654.58
+    },
+    {
+      "id": 1547,
+      "workflow_id": 3482,
+      "adjustment_id": 1563,
+      "audit_trail_id": 5206,
+      "status": "APPROVED",
+      "calculated_provision": 2082285.03
+    },
+    {
+      "id": 1548,
+      "workflow_id": 3482,
+      "adjustment_id": 1564,
+      "audit_trail_id": 5207,
+      "status": "APPROVED",
+      "calculated_provision": 583147.99
+    },
+    {
+      "id": 1549,
+      "workflow_id": 3482,
+      "adjustment_id": 1565,
+      "audit_trail_id": 5208,
+      "status": "APPROVED",
+      "calculated_provision": 190419.91
+    },
+    {
+      "id": 1550,
+      "workflow_id": 3482,
+      "adjustment_id": 1566,
+      "audit_trail_id": 5209,
+      "status": "APPROVED",
+      "calculated_provision": 22242955.45
+    },
+    {
+      "id": 1551,
+      "workflow_id": 3483,
+      "adjustment_id": 1567,
+      "audit_trail_id": 5210,
+      "status": "APPROVED",
+      "calculated_provision": 20364245.16
+    },
+    {
+      "id": 1552,
+      "workflow_id": 3483,
+      "adjustment_id": 1568,
+      "audit_trail_id": 5211,
+      "status": "APPROVED",
+      "calculated_provision": 12310885.15
+    },
+    {
+      "id": 1553,
+      "workflow_id": 3483,
+      "adjustment_id": 1569,
+      "audit_trail_id": 5212,
+      "status": "APPROVED",
+      "calculated_provision": 6807210.41
+    },
+    {
+      "id": 1554,
+      "workflow_id": 3483,
+      "adjustment_id": 1570,
+      "audit_trail_id": 5213,
+      "status": "APPROVED",
+      "calculated_provision": 5795366.68
+    },
+    {
+      "id": 1555,
+      "workflow_id": 3483,
+      "adjustment_id": 1571,
+      "audit_trail_id": 5214,
+      "status": "APPROVED",
+      "calculated_provision": 6635510.99
+    },
+    {
+      "id": 1556,
+      "workflow_id": 3454,
+      "adjustment_id": 1572,
+      "audit_trail_id": 5215,
+      "status": "APPROVED",
+      "calculated_provision": 226116.28
+    },
+    {
+      "id": 1557,
+      "workflow_id": 3455,
+      "adjustment_id": 1573,
+      "audit_trail_id": 5216,
+      "status": "APPROVED",
+      "calculated_provision": 1280629.67
+    },
+    {
+      "id": 1558,
+      "workflow_id": 3456,
+      "adjustment_id": 1574,
+      "audit_trail_id": 5217,
+      "status": "APPROVED",
+      "calculated_provision": 19610348.98
+    },
+    {
+      "id": 1559,
+      "workflow_id": 3455,
+      "adjustment_id": 1575,
+      "audit_trail_id": 5218,
+      "status": "APPROVED",
+      "calculated_provision": 158524012.57
+    }
+  ]
+}

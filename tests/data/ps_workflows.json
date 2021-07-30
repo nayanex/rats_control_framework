@@ -1,0 +1,39 @@
+{
+  "ps_workflows": [
+    {
+      "id": 3454,
+      "calculation_request_id": 9616,
+      "workflow_type_id": 3,
+      "audit_trail_id": 5156,
+      "status": "REFR_APPROVE"
+    },
+    {
+      "id": 3455,
+      "calculation_request_id": 9616,
+      "workflow_type_id": 4,
+      "audit_trail_id": 5157,
+      "status": "REFR_APPROVE"
+    },
+    {
+      "id": 3456,
+      "calculation_request_id": 9616,
+      "workflow_type_id": 5,
+      "audit_trail_id": 5158,
+      "status": "REFR_APPROVE"
+    },
+    {
+      "id": 3482,
+      "calculation_request_id": 9643,
+      "workflow_type_id": 4,
+      "audit_trail_id": 5184,
+      "status": "REFR_APPROVE"
+    },
+    {
+      "id": 3483,
+      "calculation_request_id": 9643,
+      "workflow_type_id": 5,
+      "audit_trail_id": 5185,
+      "status": "REFR_APPROVE"
+    }
+  ]
+}

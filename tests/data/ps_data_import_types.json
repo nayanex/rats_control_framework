@@ -1,0 +1,8 @@
+{
+  "ps_data_import_types": [
+    { "id": 2, "description": "MDM data import for MPS" },
+    { "id": 4, "description": "FRAS data import for reporting" },
+    { "id": 6, "description": "RSS Data import" },
+    { "id": 9, "description": "IFRS IMPORT DATA SET" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "ps_adjustment_sources": [
+    { "id": 1, "name": "ETN/IVM" },
+    { "id": 2, "name": "PO" },
+    { "id": 3, "name": "CCC" },
+    { "id": 4, "name": "Sector" },
+    { "id": 5, "name": "Proposal" },
+    { "id": 6, "name": "ABN AMRO Group Entity" },
+    { "id": 7, "name": "DQ" }
+  ]
+}

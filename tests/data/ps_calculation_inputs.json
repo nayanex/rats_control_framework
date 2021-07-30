@@ -1,0 +1,106 @@
+{
+  "ps_calculation_inputs": [
+    {
+      "id": 3353,
+      "import_dataset_id": 1581,
+      "data_dictionary_id": 145,
+      "value": "VIENNA"
+    },
+    {
+      "id": 3325,
+      "import_dataset_id": 1574,
+      "data_dictionary_id": 145,
+      "value": "BRDWH"
+    },
+    {
+      "id": 3329,
+      "import_dataset_id": 1575,
+      "data_dictionary_id": 145,
+      "value": "IHUB-CN1"
+    },
+    {
+      "id": 3321,
+      "import_dataset_id": 1573,
+      "data_dictionary_id": 145,
+      "value": "IHUB-AU1"
+    },
+    {
+      "id": 3333,
+      "import_dataset_id": 1576,
+      "data_dictionary_id": 145,
+      "value": "IHUB-SG1"
+    },
+    {
+      "id": 3341,
+      "import_dataset_id": 1578,
+      "data_dictionary_id": 145,
+      "value": "IHUB-HK2"
+    },
+    {
+      "id": 3309,
+      "import_dataset_id": 1570,
+      "data_dictionary_id": 145,
+      "value": "IHUB-DE2"
+    },
+    {
+      "id": 3345,
+      "import_dataset_id": 1579,
+      "data_dictionary_id": 145,
+      "value": "IHUB-US1"
+    },
+    {
+      "id": 3370,
+      "import_dataset_id": 1585,
+      "data_dictionary_id": 145,
+      "value": "ACF-FR"
+    },
+    {
+      "id": 3374,
+      "import_dataset_id": 1586,
+      "data_dictionary_id": 145,
+      "value": "ACF-DE"
+    },
+    {
+      "id": 3382,
+      "import_dataset_id": 1588,
+      "data_dictionary_id": 145,
+      "value": "IHUB-FR1"
+    },
+    {
+      "id": 3387,
+      "import_dataset_id": 1590,
+      "data_dictionary_id": 145,
+      "value": "LEASE"
+    },
+    {
+      "id": 3305,
+      "import_dataset_id": 1569,
+      "data_dictionary_id": 145,
+      "value": "ALFAM"
+    },
+    {
+      "id": 3317,
+      "import_dataset_id": 1572,
+      "data_dictionary_id": 145,
+      "value": "FBS"
+    },
+    {
+      "id": 3337,
+      "import_dataset_id": 1577,
+      "data_dictionary_id": 145,
+      "value": "IHUB-BE1"
+    },
+    {
+      "id": 3362,
+      "import_dataset_id": 1583,
+      "data_dictionary_id": 145,
+      "value": "ACF-UK"
+    },
+    {
+      "id": 3366,
+      "import_dataset_id": 1584,
+      "data_dictionary_id": 145,
+      "value": "ACF-NL"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+trigger:
+- None
+
+name: $(Date:yyyyMMdd)$(Rev:.r)
+
+# Define Variable groups if any
+variables:
+  - group: Xyzamco.Coesd.VariableGroup.GlobalVars
+  - group: TeamVars.RAT
+  - group: Xyzamco.Raas.VariableGroup.TeamVars
+  - name: PYTHONPATH
+    value: src
+  - name: SoloProjectName
+    value: com.xyzamco.rat
+
+  # service connection for sonarQube
+  - name: Serviceconnection.SonarQube.Name
+    value: 'rat-sonarqube-p-sc'
+  # service connection for Fortify
+  - name: Serviceconnection.Fortify.Name
+    value: 'fortify-p-sc'
+
+
+# Reference to XYZ AMCO Complient Pipeline Template. Please do not change the below template code. PIPE team regularly updates templates
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: GRD0001045/pita-pipeline-templates
+      ref:  'refs/heads/master'
+  containers:
+    - container: python
+      image: 'python:3.8.3-slim-buster'
+      endpoint: 'ifrs9-d-acr-endpoint'
+
+stages:
+- stage: CI
+  pool:
+      name: 'Private Pool Docker'
+  jobs:
+  - template: flows/python.yml@templates
+    parameters:
+              tests_location: tests
+              pytest_arguments: '--doctest-modules --ignore=tests/* --junitxml=$(Common.TestResultsDirectory)/test_report/test-results.xml --cov=./src --cov-report=xml --cov-report=html'
+              requirements_file_source: '$(Build.SourcesDirectory)/requirements-dev.txt'
+              run_tests: 'true'
+              fortify_project_name: 'xyzamco_rats_controlframework'
+              source_location:  'src'
+              run_pylint: 'true'
+              run_nexus_lc_scan: 'true'
+              run_fortify_scan: 'true'
+              publish_to_nexus: 'false'
+              publish_to_artifacts: 'false'

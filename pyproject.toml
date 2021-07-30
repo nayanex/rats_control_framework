@@ -1,0 +1,8 @@
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+[tool.coverage.report]
+exclude_lines = [
+    "if __name__ == .__main__.:"
+]

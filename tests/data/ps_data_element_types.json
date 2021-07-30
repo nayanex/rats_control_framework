@@ -1,0 +1,40 @@
+{
+  "ps_data_element_types": [
+    {
+      "id": 1,
+      "description": "Calculation input"
+    },
+    {
+      "id": 3,
+      "description": "Calculation output"
+    },
+    {
+      "id": 4,
+      "description": "Adjustment risk driver (text)"
+    },
+    {
+      "id": 5,
+      "description": "Adjustment risk driver (number)"
+    },
+    {
+      "id": 6,
+      "description": "Adjustment risk driver (date)"
+    },
+    {
+      "id": 8,
+      "description": "Regular Macro-Economic Variable"
+    },
+    {
+      "id": 9,
+      "description": "Exponential Macro-Economic Variable"
+    },
+    {
+      "id": 10,
+      "description": "Model Parameter"
+    },
+    {
+      "id": 11,
+      "description": "Exposure Profile Parameter"
+    }
+  ]
+}

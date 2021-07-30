@@ -1,0 +1,9 @@
+# These libraries are required for development
+black
+coverage
+isort
+mock
+pip-tools
+pytest
+pytest-freezegun
+tenacity

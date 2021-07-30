@@ -1,0 +1,25 @@
+{
+  "ps_data_dictionary": [
+    {
+      "id": 5,
+      "data_element_type_id": 1,
+      "code": "REPORTING_PERIOD",
+      "name": "Reporting Period",
+      "description": "Month\/year value of a set of imported assets (MDL records in PS_ASSETS)"
+    },
+    {
+      "id": 145,
+      "data_element_type_id": 1,
+      "code": "SOURCE_SYSTEM",
+      "name": "Source System",
+      "description": "Source system corresponding to the delivered file"
+    },
+    {
+      "id": 255,
+      "data_element_type_id": 1,
+      "code": "mdmImportDatasetId",
+      "name": "mdmImportDatasetId",
+      "description": "Attribute coming from MPS RATS"
+    }
+  ]
+}

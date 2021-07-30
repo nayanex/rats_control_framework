@@ -1,0 +1,9 @@
+{
+  "ps_adjustment_types": [
+    {
+      "id": 1,
+      "workflow_type_id": 1,
+      "name": "Provision Adjustment via Amount"
+    }
+  ]
+}

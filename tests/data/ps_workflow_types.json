@@ -1,0 +1,9 @@
+{
+  "ps_workflow_types": [
+    { "id": 1, "name": "IBNI", "calculation_type_id": 1 },
+    { "id": 2, "name": "Collective Provisions", "calculation_type_id": 1 },
+    { "id": 3, "name": "IFRS9 Stage1", "calculation_type_id": 4 },
+    { "id": 4, "name": "IFRS9 Stage2", "calculation_type_id": 4 },
+    { "id": 5, "name": "IFRS9 Stage3", "calculation_type_id": 4 }
+  ]
+}

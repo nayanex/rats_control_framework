@@ -1,0 +1,8 @@
+# These libraries are required to run the script
+attrs
+cx_Oracle
+openpyxl
+pandas==1.1.5
+python-dotenv
+scipy
+sqlalchemy==1.3.22

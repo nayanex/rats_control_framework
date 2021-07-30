@@ -1,0 +1,9 @@
+name: control_framework_reports
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - nomkl
+  - pip
+  - pip:
+      - -r requirements.txt
